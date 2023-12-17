@@ -20,7 +20,7 @@ let checkCount = 0;
 
 handleSlider();
 //ste strength circle color to grey
-
+setIndicator("#ccc");
 //set passwordLength in ui 
 function handleSlider() {
     inputSlider.value = passwordLength;
