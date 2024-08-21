@@ -95,6 +95,7 @@ async function copyContenet() {
 // navigator.clipboard.writeText method se hum clipboard me copy kar rahe hai it will return a promise and when it is fullfill then success and it is async and when our text is copied then we show the copied msg that's why we are using await keyword 
 
 try {
+  passwordDisplay.select()
     await navigator.clipboard.writeText(passwordDisplay.value);
     copyMsg.innerText = "copied";
 }
